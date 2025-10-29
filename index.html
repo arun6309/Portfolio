@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Email Sending emailjs Integration -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "g9j2pRGGy9m9u4QNd",
+        });
+    })();
+    </script>
+
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo">Portfolio</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item">
+                        <a href="Arun_Jarupula.pdf" class="button button-cv" download>Download CV <i class='bx bxs-download'></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home-container container grid">
+                <div class="home-content">
+                    <h1>Hi, I'm Arun Jarupula</h1>
+                    <h3>Data Scientist|Data Analyst|  AI/ML Engineer | Problem Solver</h3>
+                    <p> 
+Commited and  excited about the opportunity to collabrate with brightest mind in industry with a strong work ethic and a thrist for knowledge. Aspring to launch a successful career as a Data Scientist.Where i can utilize my skills to make a meaningful impact. 
+.</p>
+                    <div class="home-social">
+                        <a href="#" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#" aria-label="Email"><i class='bx bxs-envelope'></i></a>
+                    </div>
+                    <div class="home-buttons">
+                        <a href="#contact" class="button button-primary">Get In Touch</a>
+                        <a href="#projects" class="button button-secondary">View My Work <i class='bx bxs-down-arrow'></i></a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <img src="arun.jpg" alt="Your Name">
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container container grid">
+                <div class="about-text">
+                    <p>I'm a passionate Data Scientist with hands-on experience in Python, R, SQL, and Power BI.
+
+I enjoy building data-driven solutions using analytics, machine learning, and visualization tools to turn complex datasets into actionable insights.
+
+With a strong foundation in statistical analysis and predictive modeling, I strive to solve real-world problems through innovative approaches.
+
+</p>
+            </p>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <i class='bx bx-user-check card-icon'></i>
+                        <h3>Who I Am</h3>
+                        <p>A creative problem-solver focused on delivering innovative and efficient solutions.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class='bx bx-target-lock card-icon'></i>
+                        <h3>My Goal</h3>
+                        <p>To develop innovative solutions that simplify and enhance everyday digital interactions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <span class="section-subtitle">A comprehensive toolkit built through years of hands-on experience</span>
+            <div class="skills-container container grid">
+                <div class="skill-card">
+                    <i class='bx bx-code-alt skill-icon'></i>
+                    <h3>Programming</h3>
+                    <span>Python</span>
+                    <span>R Language</span>
+                    <span>SQL</span>
+                    <span>DAX</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Java Script</span>
+                    <span>Responsive Website</span>
+                </div>
+                <div class="skill-card">
+                    <i class='bx bx-server skill-icon'></i>
+                    <h3>Data Science</h3>
+                    <span>Machine Learning</span>
+                    <span>Data Analatics</span>
+                    <span>Deep Learning</span>
+                    <span>Predictive Modelling</span>
+                    <span>statistical Analysis</span>
+                    <span>Large Language Models</span>
+                    <span>NLP</span>
+                    
+                </div>
+                <div class="skill-card">
+                    <i class='bx bx-chip skill-icon'></i>
+                    <h3>Machine Learning & AI</h3>
+                    <span>Numpy</span>
+                    <span>Pandas</span>
+                    <span>Matplotlib</span>
+                    <span>OpenCV</span>
+                    <span>TensorFlow</span>
+                    <span>Deep Learning</span>
+                    <span>GenAI</span>
+                </div>
+                <div class="skill-card">
+                    <i class='bx bx-mobile-alt skill-icon'></i>
+                    <h3>visualization</h3>
+                    <span>Power Bi</span>
+                    <span>Tableau</span>
+                    <span>Matplotlib</span>
+                    <span>Seaborn</span>
+                </div>
+                <div class="skill-card">
+                    <i class='bx bx-wrench skill-icon'></i>
+                    <h3>Tools & Libraries</h3>
+                    <span>Git</span>
+                    <span>VS Code</span>
+                    <span>Pandas</span>
+                    <span>Numpy</span>
+                    <span>Scikit-Learn></span>
+                    <span>TensorFlow</span>
+                    <span>SHAP</span>
+                    <span>Jupyter </span>
+                    <span>SQLite</span>
+                </div>
+                <div class="skill-card">
+                    <i class='bx bx-brain skill-icon'></i>
+                    <h3>Frame Works</h3>
+                    <span>Flask</span>
+                    <span>Streamlit</span>
+                    
+        
+                </div>
+            </div>
+        </section>
+
+        <section class="experience section" id="experience">
+            <h2 class="section-title">Work Experience</h2>
+            <!-- <span class="section-subtitle">A journey of growth, learning, and delivering impactful solutions</span> -->
+            <div class="experience-container container">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3><i class='bx bx-briefcase-alt-2'></i>Machine Learning And Data Analysis Intern</h3>
+                        <span>03/2024 - 05/2024</span>
+                    </div>
+                    <h4><a href="https://www.cdac.in/index.aspx?id=HY">Cognifyz Technologies</a></h4>
+                    
+                    <h5 class="experience-achievements-title">Key Achievements:</h5>
+                    <ul class="experience-achievements">
+                        <li>Proficient in handling missing values, encoding categorical variables, and splitting datasets for machine learning tasks.
+</li>
+                        <li>Experienced in selecting and training regression algorithms like linear regression and decision trees.
+
+</li>
+                        <li>Skilled in evaluating model performance using regression metrics to ensure accuracy and generalization.</li>
+
+                        <li>Capable of interpreting model results to extract meaningful insights for informed decision-making.
+</li>
+<li>Spearheaded data analytics projects at Conifyz Technologies, leveraging data-driven insights to optimize decision-making processes</li>
+<li>demonstrated proficiency in data analysis and visualization, contributing to enhanced business outcomes.</li>
+
+                       
+                </div>
+            </div>
+                   
+        </section>
+
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <span class="section-subtitle">A selection of my recent work showcasing diverse technical skills</span>
+            <div class="projects-container container grid">
+                <article class="project-card">
+                    <img src="maternal health.jpg" alt="Maternal Health Risk Analysis ">
+                    <div class="project-content">
+                        <h3>Maternal Health Risk Prediction</h3>
+                        <p>Developed predictive models using Logistic Regression, Random Forest, and SVM to assess maternal health risks. Achieved 84.59% accuracy with Blood Sugar and Blood Pressure identified as key risk factors through feature importance analysis. Implemented comprehensive data preprocessing and model validation techniques.</p>
+                        <p>Key Highlights:
+                           Multiple ML algorithms comparison.
+                           Feature importance analysis with SHAP.
+                           Cross-validation and hyperparameter tuning.
+                           Clinical insights for healthcare professionals.</p>
+                        <div class="project-tags">
+                            <span>R</span>
+                            <span>Logistic Regression</span>
+                            <span>Random Forest</span>
+                            <span>SVM</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#"><i class='bx bx-link-external'></i> Live Demo</a> -->
+                            <a href="https://github.com/arun6309/Maternal-Health-risk-Analysis"><i class='bx bxl-github'></i> Code</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="covid.jpg" alt="
+COVID-19 Socioeconomic Analysis">
+                    <div class="project-content">
+                        <h3>
+COVID-19 Socioeconomic Analysis</h3>
+                        <p> Comprehensive study examining the effects of vaccination rates and socio-economic factors on COVID-19 death rates across different regions. Applied ANOVA, Chi-square tests, and regression analysis for robust statistical insights. Integrated SQLite for efficient data management and querying.
+</p>
+
+                           <p> Key Highlights:
+                               Multi-dimensional statistical analysis.
+                               Database integration with SQLite.
+                               Regional comparative studies.
+                               Policy-relevant insights extraction.</p>
+                        <div class="project-tags">
+                            <span>R</span>
+                            <span>SQLite</span>
+                            <span>Regression</span>
+                            <span>Chi-square</span>
+                            <span>ANOVA</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#"><i class='bx bx-link-external'></i> Live Demo</a> -->
+                            <a href="https://github.com/arun6309/COVID-19-Socioeconomic-Analysis"><i class='bx bxl-github'></i> Code</a>
+                        </div>
+                
+                            
+                            
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="Heart.jpg" alt="Machine Learning for Early Detection of Heart Disease Using Multimodal Patient Data">
+                    <div class="project-content">
+                        <h3>Machine Learning for Early Detection of Heart Disease Using Multimodal Patient Data</h3>
+                        <p>Built a high-accuracy machine learning model using Random Forest algorithm to predict heart disease risk. Integrated SHAP (SHapley Additive exPlanations) for model explainability, providing transparent insights into prediction factors. Achieved 89% accuracy with comprehensive feature engineering.
+</p>
+                        <p>Key Highlights :
+                           Explainable AI implementation.
+                           SHAP values for feature interpretation.
+                           High prediction accuracy (89%).
+                           Clinical decision support focus.</p>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Random Forest</span>
+                            <span>SHAP</span>
+                            <span>Scikit-learn</span>
+                            <span>Logistic Regression</span>
+                            <span>SVM = SV Classifier</span>
+                            <span>XGBoost Classifier</span>
+                            <span>	Multi-Layer Perceptron (MLP): </span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#"><i class='bx bx-link-external'></i> Live Demo</a>
+                            <a href="#"><i class='bx bxl-github'></i> Code</a> -->
+                            <a href="https://github.com/arun6309/Heart-Disease-Prediction"><i class='bx bxl-github'></i> Code</a>
+                        
+
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <span class="section-subtitle">Have a project in mind or just want to chat? I'd love to hear from you</span>
+            <div class="contact-container container grid">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <i class='bx bxs-envelope'></i>
+                            <span><a href="jarupula.arun2001@gmail.com">jarupula.arun2001@gmail.com</a></span>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class='bx bxs-phone'></i>
+                            <span><a href="tel:07887140291">+44 7887140291</a></span>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class='bx bxs-map'></i>
+                            <span><a href="https://maps.google.com/maps?cid=3969247512081318658">London, Ilford, United Kingdom</a></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="button button-primary">
+                    Send Message <i class='bx bxs-paper-plane'></i>
+                </button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container container">
+            <p>&copy; 2025 Arun Jarupula. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+
+    <!-- EmailJS Script -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+    (function() {
+        // Initialize EmailJS with your public key
+        emailjs.init("qYjt0EZ6pO8EtlPvH"); // Replace with your EmailJS Public Key
+    })();
+
+    // Handle form submission
+    const form = document.querySelector('.contact-form');
+    form.addEventListener('submit', function(e) {
+        e.preventDefault(); // Prevent reloading
+
+        emailjs.sendForm('service_8emmhd7', 'template_5sgk3vh', this)
+        .then(() => {
+            alert('✅ Message sent successfully!');
+            form.reset(); // Clear form after success
+        })
+        .catch(() => {
+            alert('❌ Failed to send. Please try again.');
+        });
+    });
+    </script>
+
+</body>
+</html>
